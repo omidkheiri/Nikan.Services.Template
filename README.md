@@ -1,1 +1,1 @@
-Just replace **{Service_Name}** with you **Service Name**
+Just replace **{Service_Name}** with your **Service Name**
