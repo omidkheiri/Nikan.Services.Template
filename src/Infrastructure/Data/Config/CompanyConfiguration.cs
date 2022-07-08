@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions.Infrastructure;
-using Nikan.Services.BasicData.Core.CompanyAggregate;
+using Nikan.Services.{ Service_Name}.Core.CompanyAggregate;
 
-namespace Nikan.Services.BasicData.Infrastructure.Data.Config;
+namespace Nikan.Services.{ Service_Name }.Infrastructure.Data.Config;
 
 public class CompanyConfiguration : IEntityTypeConfiguration<Company>
 {

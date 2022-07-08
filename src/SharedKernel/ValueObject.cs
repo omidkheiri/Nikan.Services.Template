@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Nikan.Services.BasicData.SharedKernel;
+namespace Nikan.Services.{ Service_Name }.SharedKernel;
 
 // source: https://github.com/jhewlett/ValueObject
 public abstract class ValueObject : IEquatable<ValueObject>

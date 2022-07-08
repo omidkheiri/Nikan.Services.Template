@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Text;
 
-namespace Nikan.Services.BasicData.SharedKernel.Pagination;
+namespace Nikan.Services.{ Service_Name }.SharedKernel.Pagination;
 
 public class SortHelper<T> : ISortHelper<T>
 {

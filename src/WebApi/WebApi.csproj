@@ -8,8 +8,8 @@
     <WebProjectMode>true</WebProjectMode>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Nikan.Services.BasicData.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
-    <AssemblyName>Nikan.Services.BasicData.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>Nikan.Services.{Service_Name}.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <AssemblyName>Nikan.Services.{Service_Name}.$(MSBuildProjectName)</AssemblyName>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
     <DockerComposeProjectPath>..\..\..\docker-compose.dcproj</DockerComposeProjectPath>

@@ -1,6 +1,6 @@
 ﻿//using Xunit;
 
-//namespace Nikan.Services.BasicData.IntegrationTests.Data;
+//namespace Nikan.Services.{Service_Name}.IntegrationTests.Data;
 
 //public class EfRepositoryDelete : BaseEfRepoTestFixture
 //{

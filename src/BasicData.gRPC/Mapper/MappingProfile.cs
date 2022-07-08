@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 
-using Nikan.Services.BasicData.Core.CompanyAggregate;
-using Nikan.Services.BasicData.gRPC.gRPC.Protos;
+using Nikan.Services.{ Service_Name}.Core.CompanyAggregate;
+using Nikan.Services.{ Service_Name}.gRPC.gRPC.Protos;
 
-namespace Nikan.Services.BasicData.WebApi.V1.Endpoints.Mapper;
+namespace Nikan.Services.{ Service_Name }.WebApi.V1.Endpoints.Mapper;
 
 public class MappingProfile : Profile
 {

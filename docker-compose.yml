@@ -22,7 +22,7 @@ services:
   #    - PGADMIN_DEFAULT_PASSWORD=123
 
   webapi:
-    image: ${DOCKER_REGISTRY-}nikan.services.basicdata.webapi
+    image: ${DOCKER_REGISTRY-}Nikan.Services.{Service_Name}.webapi
     build:
       context: .
       dockerfile: src/WebApi/Dockerfile

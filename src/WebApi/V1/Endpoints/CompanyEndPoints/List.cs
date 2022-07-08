@@ -1,12 +1,12 @@
 ﻿using Ardalis.ApiEndpoints;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Nikan.Services.BasicData.Core.CompanyAggregate;
-using Nikan.Services.BasicData.SharedKernel.Interfaces;
-using Nikan.Services.BasicData.SharedKernel.Pagination;
+using Nikan.Services.{ Service_Name}.Core.CompanyAggregate;
+using Nikan.Services.{ Service_Name}.SharedKernel.Interfaces;
+using Nikan.Services.{ Service_Name}.SharedKernel.Pagination;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace Nikan.Services.BasicData.WebApi.V1.Endpoints.CompanyEndPoints;
+namespace Nikan.Services.{ Service_Name }.WebApi.V1.Endpoints.CompanyEndPoints;
 
 
 

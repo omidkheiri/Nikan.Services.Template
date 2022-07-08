@@ -1,7 +1,7 @@
-﻿//using Nikan.Services.BasicData.WebApi;
+﻿//using Nikan.Services.{Service_Name}.WebApi;
 //using Xunit;
 
-//namespace Nikan.Services.BasicData.FunctionalTests.ControllerApis;
+//namespace Nikan.Services.{Service_Name}.FunctionalTests.ControllerApis;
 
 //[Collection("Sequential")]
 //public class MetaControllerInfo : IClassFixture<CustomWebApplicationFactory<WebMarker>>

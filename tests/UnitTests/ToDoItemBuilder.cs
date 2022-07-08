@@ -1,4 +1,4 @@
-﻿//namespace Nikan.Services.BasicData.UnitTests;
+﻿//namespace Nikan.Services.{Service_Name}.UnitTests;
 
 //// Learn more about test builders:
 //// https://ardalis.com/improve-tests-with-the-builder-pattern-for-test-data

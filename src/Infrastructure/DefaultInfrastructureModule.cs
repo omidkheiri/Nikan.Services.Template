@@ -2,15 +2,15 @@
 using Autofac;
 using MediatR;
 using MediatR.Pipeline;
-using Nikan.Services.BasicData.Core.CompanyAggregate;
-using Nikan.Services.BasicData.Core.Interfaces;
-using Nikan.Services.BasicData.Infrastructure.Data;
-using Nikan.Services.BasicData.SharedKernel;
-using Nikan.Services.BasicData.SharedKernel.Interfaces;
-using Nikan.Services.BasicData.SharedKernel.Pagination;
+using Nikan.Services.{ Service_Name}.Core.CompanyAggregate;
+using Nikan.Services.{ Service_Name}.Core.Interfaces;
+using Nikan.Services.{ Service_Name}.Infrastructure.Data;
+using Nikan.Services.{ Service_Name}.SharedKernel;
+using Nikan.Services.{ Service_Name}.SharedKernel.Interfaces;
+using Nikan.Services.{ Service_Name}.SharedKernel.Pagination;
 using Module = Autofac.Module;
 
-namespace Nikan.Services.BasicData.Infrastructure;
+namespace Nikan.Services.{ Service_Name }.Infrastructure;
 
 public class DefaultInfrastructureModule : Module
 {

@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Nikan.Services.BasicData.Web": {
+    "Nikan.Services.{Service_Name}.Web": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

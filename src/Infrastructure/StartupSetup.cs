@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Nikan.Services.BasicData.Core.CompanyAggregate;
-using Nikan.Services.BasicData.Infrastructure.Data;
-using Nikan.Services.BasicData.SharedKernel.Pagination;
+using Nikan.Services.{ Service_Name}.Core.CompanyAggregate;
+using Nikan.Services.{ Service_Name}.Infrastructure.Data;
+using Nikan.Services.{ Service_Name}.SharedKernel.Pagination;
 
-namespace Nikan.Services.BasicData.Infrastructure;
+namespace Nikan.Services.{ Service_Name }.Infrastructure;
 
 public static class StartupSetup
 {

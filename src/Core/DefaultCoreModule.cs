@@ -1,6 +1,6 @@
 ﻿using Autofac;
 
-namespace Nikan.Services.BasicData.Core;
+namespace Nikan.Services.{ Service_Name }.Core;
 
 public class DefaultCoreModule : Module
 {

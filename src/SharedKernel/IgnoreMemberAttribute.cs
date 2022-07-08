@@ -1,4 +1,4 @@
-﻿namespace Nikan.Services.BasicData.SharedKernel;
+﻿namespace Nikan.Services.{ Service_Name }.SharedKernel;
 
 // source: https://github.com/jhewlett/ValueObject
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]

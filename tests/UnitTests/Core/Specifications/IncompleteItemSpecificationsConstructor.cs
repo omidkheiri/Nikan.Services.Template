@@ -1,6 +1,6 @@
 ﻿//using Xunit;
 
-//namespace Nikan.Services.BasicData.UnitTests.Core.Specifications;
+//namespace Nikan.Services.{Service_Name}.UnitTests.Core.Specifications;
 
 //public class IncompleteItemsSpecificationConstructor
 //{

@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using MediatR;
 
-namespace Nikan.Services.BasicData.UnitTests;
+namespace Nikan.Services.{ Service_Name }.UnitTests;
 
 public class NoOpMediator : IMediator
 {

@@ -1,8 +1,8 @@
 ﻿//using Moq;
-//using Nikan.Services.BasicData.Core.Interfaces;
+//using Nikan.Services.{Service_Name}.Core.Interfaces;
 //using Xunit;
 
-//namespace Nikan.Services.BasicData.UnitTests.Core.Handlers;
+//namespace Nikan.Services.{Service_Name}.UnitTests.Core.Handlers;
 
 //public class ItemCompletedEmailNotificationHandlerHandle
 //{

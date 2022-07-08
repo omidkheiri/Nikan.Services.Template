@@ -1,4 +1,4 @@
-﻿namespace Nikan.Services.BasicData.Core.Interfaces;
+﻿namespace Nikan.Services.{ Service_Name }.Core.Interfaces;
 
 public interface IEmailSender
 {

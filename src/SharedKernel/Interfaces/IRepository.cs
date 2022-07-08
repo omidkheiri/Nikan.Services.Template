@@ -1,8 +1,8 @@
 ﻿using System.Linq.Expressions;
 using Ardalis.Specification;
-using Nikan.Services.BasicData.SharedKernel.Pagination;
+using Nikan.Services.{ Service_Name}.SharedKernel.Pagination;
 
-namespace Nikan.Services.BasicData.SharedKernel.Interfaces;
+namespace Nikan.Services.{ Service_Name }.SharedKernel.Interfaces;
 
 // from Ardalis.Specification
 public interface IRepository<T> : IRepositoryBase<T> where T : class, IAggregateRoot

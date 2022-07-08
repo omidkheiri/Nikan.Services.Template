@@ -22,4 +22,4 @@ RUN dotnet publish "WebApi.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Nikan.Services.BasicData.WebApi.dll"]
+ENTRYPOINT ["dotnet", "Nikan.Services.{Service_Name}.WebApi.dll"]

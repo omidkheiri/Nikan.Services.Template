@@ -1,7 +1,7 @@
 ﻿using MediatR;
-using Nikan.Services.BasicData.SharedKernel.Interfaces;
+using Nikan.Services.{ Service_Name}.SharedKernel.Interfaces;
 
-namespace Nikan.Services.BasicData.SharedKernel;
+namespace Nikan.Services.{ Service_Name }.SharedKernel;
 
 public class DomainEventDispatcher : IDomainEventDispatcher
 {

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "Nikan.Services.BasicData.gRPC.gRPC.Protos";
+option csharp_namespace = "Nikan.Services.{Service_Name}.gRPC.gRPC.Protos";
 
 package grpcCompany;
 

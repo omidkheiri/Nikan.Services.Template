@@ -1,6 +1,6 @@
 ﻿//using Xunit;
 
-//namespace Nikan.Services.BasicData.UnitTests.Core.ProjectAggregate;
+//namespace Nikan.Services.{Service_Name}.UnitTests.Core.ProjectAggregate;
 
 //public class ToDoItemMarkComplete
 //{

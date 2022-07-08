@@ -1,12 +1,12 @@
-﻿namespace Nikan.Services.BasicData.WebApi.V1.Endpoints.CompanyEndPoints;
+﻿namespace Nikan.Services.{ Service_Name }.WebApi.V1.Endpoints.CompanyEndPoints;
 
 public class CreateCompanyResponse
 {
-  public CreateCompanyResponse(Guid id, 
-    string title, 
+  public CreateCompanyResponse(Guid id,
+    string title,
     string phone,
     string emailAddress,
-    string postalAddress, 
+    string postalAddress,
     DateTimeOffset dateCreated,
     DateTimeOffset dateModified,
     Guid createdBy)
@@ -17,8 +17,8 @@ public class CreateCompanyResponse
     EmailAddress = emailAddress;
     PostalAddress = postalAddress;
 
-   DateCreated= dateCreated;
-   DateModified= dateModified;
+    DateCreated = dateCreated;
+    DateModified = dateModified;
 
 
 

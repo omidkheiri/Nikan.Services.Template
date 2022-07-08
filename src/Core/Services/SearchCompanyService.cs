@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Ardalis.Result;
-using Nikan.Services.BasicData.Core.CompanyAggregate;
-using Nikan.Services.BasicData.Core.Interfaces;
-using Nikan.Services.BasicData.SharedKernel.Interfaces;
-using Nikan.Services.BasicData.SharedKernel.Pagination;
+using Nikan.Services.{ Service_Name}.Core.CompanyAggregate;
+using Nikan.Services.{ Service_Name}.Core.Interfaces;
+using Nikan.Services.{ Service_Name}.SharedKernel.Interfaces;
+using Nikan.Services.{ Service_Name}.SharedKernel.Pagination;
 
-namespace Nikan.Services.BasicData.Core.Services;
+namespace Nikan.Services.{ Service_Name }.Core.Services;
 public class SearchCompanyService : ISearchCompanyService
 {
   private readonly IRepository<Company> _repository;

@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
-using Nikan.Services.BasicData.Core.CompanyAggregate;
-using Nikan.Services.BasicData.SharedKernel;
-using Nikan.Services.BasicData.SharedKernel.Interfaces;
+using Nikan.Services.{ Service_Name}.Core.CompanyAggregate;
+using Nikan.Services.{ Service_Name}.SharedKernel;
+using Nikan.Services.{ Service_Name}.SharedKernel.Interfaces;
 
-namespace Nikan.Services.BasicData.Infrastructure.Data;
+namespace Nikan.Services.{ Service_Name }.Infrastructure.Data;
 
 public class AppDbContext : DbContext
 {

@@ -1,8 +1,8 @@
 ﻿using System.Net.Mail;
 using Microsoft.Extensions.Logging;
-using Nikan.Services.BasicData.Core.Interfaces;
+using Nikan.Services.{ Service_Name}.Core.Interfaces;
 
-namespace Nikan.Services.BasicData.Infrastructure;
+namespace Nikan.Services.{ Service_Name }.Infrastructure;
 
 public class EmailSender : IEmailSender
 {

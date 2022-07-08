@@ -1,7 +1,7 @@
-﻿using Nikan.Services.BasicData.Core.CompanyAggregate;
-using Nikan.Services.BasicData.SharedKernel.Pagination;
+﻿using Nikan.Services.{ Service_Name}.Core.CompanyAggregate;
+using Nikan.Services.{ Service_Name}.SharedKernel.Pagination;
 
-namespace Nikan.Services.BasicData.WebApi.V1.Endpoints.CompanyEndPoints;
+namespace Nikan.Services.{ Service_Name }.WebApi.V1.Endpoints.CompanyEndPoints;
 
 public class ListCompanyResponse
 {

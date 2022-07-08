@@ -5,10 +5,10 @@
 //using Microsoft.Extensions.DependencyInjection;
 //using Microsoft.Extensions.Hosting;
 //using Microsoft.Extensions.Logging;
-//using Nikan.Services.BasicData.Infrastructure.Data;
-//using Nikan.Services.BasicData.UnitTests;
+//using Nikan.Services.{Service_Name}.Infrastructure.Data;
+//using Nikan.Services.{Service_Name}.UnitTests;
 
-//namespace Nikan.Services.BasicData.FunctionalTests;
+//namespace Nikan.Services.{Service_Name}.FunctionalTests;
 
 //public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<TStartup> where TStartup : class
 //{

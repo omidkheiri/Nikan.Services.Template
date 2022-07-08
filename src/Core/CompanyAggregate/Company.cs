@@ -1,8 +1,8 @@
 ﻿using Ardalis.GuardClauses;
-using Nikan.Services.BasicData.SharedKernel;
-using Nikan.Services.BasicData.SharedKernel.Interfaces;
+using Nikan.Services.{ Service_Name}.SharedKernel;
+using Nikan.Services.{ Service_Name}.SharedKernel.Interfaces;
 
-namespace Nikan.Services.BasicData.Core.CompanyAggregate;
+namespace Nikan.Services.{ Service_Name }.Core.CompanyAggregate;
 
 public class Company : EntityBase, IAggregateRoot
 {

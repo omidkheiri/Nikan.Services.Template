@@ -1,6 +1,6 @@
 ﻿
 
-using Nikan.Services.BasicData.gRPC.gRPC.Service;
+using Nikan.Services.{ Service_Name}.gRPC.gRPC.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 

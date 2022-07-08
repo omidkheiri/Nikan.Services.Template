@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using Grpc.Core;
-using Nikan.Services.BasicData.Core.CompanyAggregate;
-using Nikan.Services.BasicData.gRPC.gRPC.Protos;
-using Nikan.Services.BasicData.SharedKernel.Interfaces;
+using Nikan.Services.{ Service_Name}.Core.CompanyAggregate;
+using Nikan.Services.{ Service_Name}.gRPC.gRPC.Protos;
+using Nikan.Services.{ Service_Name}.SharedKernel.Interfaces;
 
 
-namespace Nikan.Services.BasicData.gRPC.gRPC.Service;
+namespace Nikan.Services.{ Service_Name }.gRPC.gRPC.Service;
 
 public class GrpcCompanyService : GrpcCompany.GrpcCompanyBase
 {
